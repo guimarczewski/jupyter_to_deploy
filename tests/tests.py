@@ -14,10 +14,10 @@ def test_main_response():
     response = client.get("/")
     assert response.json() == {"Hello": "World"}
 
-def test_pega_um_produto():
+def testa_produto():
     response = client.get("/produtos/1")
-    assert response.json() ==     {
-        "id": 1,
-        "nome": "Notebook",
-        "preco": 3500.00,
-    }
+    assert response.json() == {
+    "id": 1,
+    "nome": "Notebook",
+    "preco": 3500
+}
