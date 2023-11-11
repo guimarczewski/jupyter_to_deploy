@@ -5,3 +5,4 @@ SQLAlchemy
 uvicorn
 python-dotenv
 pytest
+httpx
