@@ -4,3 +4,4 @@ pydantic
 SQLAlchemy
 uvicorn
 python-dotenv
+pytest
